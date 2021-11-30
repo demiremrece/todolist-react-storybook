@@ -1,10 +1,11 @@
 import TaskListItem from "../components/TaskListItem";
+import "../index.css"
 
 export default {
   title: "TaskListItem",
   argTypes: {
-    verified: { control: "boolean"},
-    label: { control: "text"}
+    verified: { control: "boolean", defaultValue: false},
+    label: { control: "text", defaultValue: "Unverified Task"}
   }
 }
 

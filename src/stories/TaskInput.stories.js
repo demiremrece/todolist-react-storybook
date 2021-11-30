@@ -1,4 +1,6 @@
 import TaskInput from "../components/TaskInput";
+import "../index.css"
+
 
 export default {
   title: "TaskInput",
